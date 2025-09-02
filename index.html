@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial Interativo Passo a Passo</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-menu">
+        <h1>Como usar um ipconfig no <dfn>Terminal</dfn></h1>
+    </nav>
+
+    <div class="progress-container">
+        <p>Progresso do tutorial:</p>
+        <progress id="tutorial-progress" value="0" max="4"></progress>
+    </div>
+
+    <main class="container">
+        <div class="caixas">
+            <details toggle class="passo">
+                <summary>Passo 1: Abrir o Prompt de Comando</summary>
+                <ul class="lista">
+                    <li>Usando o atalho "Executar": Pressione as teclas <kbd>Windows</kbd> + <kbd>R</kbd> para abrir a
+                        janela "Executar". Digite <code>cmd</code> e pressione <kbd>Enter</kbd>.</li>
+                </ul>
+            </details>
+            <details toggle class="passo">
+                <summary>Passo 2: Pesquisando</summary>
+                <ul class="lista">
+                    <li>Pesquisando no Menu Iniciar: Clique no Menu Iniciar (ou na barra de pesquisa) e digite
+                        <code>cmd</code> (para o Prompt de Comando) ou <code>powershell</code> (para o PowerShell) e
+                        pressione <kbd>Enter</kbd>.</li>
+                </ul>
+            </details>
+            <details toggle class="passo">
+                <summary>Passo 3: Rode o comando ipconfig</summary>
+                <ul class="lista">
+                    <li>Com o terminal aberto, digite o seguinte comando:
+                        <pre><code>ipconfig</code></pre>
+                    </li>
+                </ul>
+            </details>
+            <details toggle class="passo">
+                <summary>Passo 4: Analise o resultado</summary>
+                <ul class="lista">
+                    <li>O terminal irá mostrar o endereço IP e outras informações. 
+                    O endereço IPv4 é a <var>variável</var> que representa o endereço IP do seu computador na rede
+                        local.</li>
+                </ul>
+            </details>
+        </div>
+
+
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

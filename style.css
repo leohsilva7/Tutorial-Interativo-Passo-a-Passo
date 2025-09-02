@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Istok Web";
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212844;
+    width: 100%;
+    height: 100px;
+    color: #F0E8D5;
+}
+body{
+    background-color: #F0E8D5;
+}
+.progress-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+#tutorial-progress {
+    width: 384px;
+    height: 39px;
+    background-color: linear-gradient(0deg, #051528 0%, #496486 100%);
+}
+ .passo {
+    gap: 20px;
+    text-align: center;
+}
+.passo summary{
+    width: 100%;
+    color: #F0E8D5;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 15px;
+    background-color: #212844;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    width: 100%;
+}
+.caixas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    gap: 5px;
+}
+.lista{
+    width: 411px;
+    height: 275px;
+    border-radius: 15px;
+    background: #212844;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.lista li{
+    list-style: none;
+    color: #F0E8D5;
+}
